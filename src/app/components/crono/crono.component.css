@@ -1,0 +1,54 @@
+/* Centrar el contenedor en la pantalla */
+s
+/* Estilo del contenedor */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo de la pantalla */
+.screen {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de los botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 48%; /* Para que ocupen el mismo espacio */
+}
+
+/* Efecto al pasar el ratón sobre los botones */
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Cambiar color para el botón de reinicio */
+.buttons button:last-child {
+    background-color: #f44336;
+}
+
+/* Efecto al pasar el ratón sobre el botón de reinicio */
+.buttons button:last-child:hover {
+    background-color: #d32f2f;
+}
